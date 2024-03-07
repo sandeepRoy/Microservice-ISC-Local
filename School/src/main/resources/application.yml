@@ -1,0 +1,29 @@
+server:
+  port: 9091
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://${MYSQL_HOST:localhost}:3306/school
+    username: root
+    password: Online#9900
+  jpa:
+    hibernate:
+      ddl-auto: update
+  boot:
+    admin:
+      client:
+        url: http://localhost:1111/
+  application:
+    name: SCHOOL
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8761/eureka/
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
+  endpoint:
+    health:
+      show-details: always
