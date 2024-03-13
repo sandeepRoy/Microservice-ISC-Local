@@ -3,6 +3,6 @@ Demonstration of Interservice Communication using Microservices based Architecht
 
 Objective : To make a channel of communicatiob between two completely independent APIs interacting with separate database schemas.
 
-Completed - Service Registry, Admin Server, 2 Microservices and ISC b/w them, to show up a One to Many relationship. School with List of Students.
+Completed - Service Registry, Admin Server, 2 Microservices and ISC b/w them, to show up a One to Many relationship. School with List of Students, API Gateway.
 
-Pending - API Gateway and Config Server
+Pending - Config Server
