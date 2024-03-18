@@ -1,2 +1,5 @@
-server:
-  port: 1111
+spring:
+  application:
+    name: admin
+  config:
+    import: optional:configserver:http://localhost:8888
